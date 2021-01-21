@@ -1,0 +1,18 @@
+<h1>ROCK-PAPER-SCISSORS!</h1>
+<h2>.......</h2>
+
+<h2> <%= @game.playerone.name%> please choose your weapon!</h2>
+<form action="/gamer" method="post">
+    <label for="choice_1">
+    Weapon 1
+<input type="text" name="choice_1"> 
+    </label>
+    
+<h2> <%= @game.playertwo.name %> please choose your weapon!</h2>
+    <label for="choice_2">
+    Weapon 2 
+<input type="text" name="choice_2"> 
+    </label>
+<h2>.......</h2>
+<input type="submit" value="Submit">
+</form>
